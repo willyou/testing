@@ -1,0 +1,40 @@
+.form-group {
+    display: inline-block;
+    float: left;
+    margin: 5px;
+}
+#todayWeather {
+    margin: 0;
+    display: inline-block;
+}
+#weather-icon {
+    display: inline-block;
+}
+#weather-icon.cloud {
+    background: url('../imgs/icons.png') no-repeat -78px -175px;
+    width: 48px;
+    height: 30px;
+}
+#weather-icon.unknown {
+    background: url('../imgs/icons.png') no-repeat -155px -540px;
+    width: 39px;
+    height: 19px;
+}
+#weather-icon.clear {
+    background: url('../imgs/icons.png') no-repeat -82px -26px;
+    width: 39px;
+    height: 39px;
+}
+#weather-icon.rain {
+    background: url('../imgs/icons.png') no-repeat -365px -165px;
+    width: 49px;
+    height: 48px;
+}
+#error-msg {
+    color: #efefef;
+    background: red;
+}
+ 
+.media-body {
+    display: inline-block;
+}
